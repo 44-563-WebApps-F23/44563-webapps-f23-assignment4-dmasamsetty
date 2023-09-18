@@ -1,0 +1,9 @@
+/* Creating first stylesheet*/
+
+.speech{font-family:'Times New Roman', Times, serif; color:black; font-size:24;}
+.direction {font-family:'Courier New', Courier, monospace; font-size: 18;}
+.direction:hover{color: black; background-color: bisque;}
+.Mrs.Stockmann{color:blue;}
+.Kiil{color: brown;}
+.Dr.Stockmann{color:darkorange;}
+
