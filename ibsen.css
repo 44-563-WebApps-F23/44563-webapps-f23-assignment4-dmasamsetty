@@ -1,8 +1,20 @@
-/* Creating first stylesheet*/
+/* speech class will be used for spoken text*/
 
-.speech{font-family:'Times New Roman', Times, serif; color:black; font-size:24;}
-.direction {font-family:'Courier New', Courier, monospace; font-size: 18;}
-.direction:hover{color: black; background-color: bisque;}
+.speech{font-family:'Times New Roman', Times, serif; 
+    color:black; 
+    font-size:24;
+}
+/*direction class will be used for the non-spoken directions in the play*/
+
+.direction {font-family:'Courier New', Courier, monospace;
+     font-size: 18;
+}
+/*using a hover on direction class*/
+
+.direction:hover{color: black;
+     background-color: bisque;
+}
+/*styling each character*/
 .Mrs.Stockmann{color:blue;}
 .Kiil{color: brown;}
 .Dr.Stockmann{color:darkorange;}
