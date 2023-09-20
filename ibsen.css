@@ -21,7 +21,7 @@
 
 /* Styling the Table*/
 
-th { border: dashed 3px; color: burlywood; padding: 30px 20px 30px 20px; margin: 200px 13em 15pt 10%;
+th { border: dashed 3px; color:burlywood; padding: 30px 20px 30px 20px; margin: 200px 13em 15pt 10%;
     text-align: center; font-size: x-large;
   }
 td {border: solid 1px; padding: 30px 20px 30px 20px;
@@ -31,6 +31,12 @@ td {border: solid 1px; padding: 30px 20px 30px 20px;
     border-collapse:collapse;
     outline: solid 2px lightcoral;}
 
-tr:nth-child(even) {background-color: #718556;}
+tr:nth-child(even) {background-color: #718556;
+}
+
+h4:hover{
+    text-shadow: 2px 3px 5px orange; 
+    border: solid 2px;
+}
 
 
