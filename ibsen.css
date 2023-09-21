@@ -28,7 +28,7 @@
 
 th {
     border: dashed 3px;
-    color: burlywood;
+    color:blue;
     padding: 30px 20px 30px 20px;
     margin: 200px 13em 15pt 10%;
     text-align: center;
@@ -44,12 +44,12 @@ td {
 
 .collapsing {
     border: solid 3px;
-    border-collapse: collapse;
+    border-collapse:initial;
     outline: solid 2px lightcoral;
 }
 
 tr:nth-child(even) {
-    background-color: #718556;
+    color:crimson;
 }
 
 h4:hover {
@@ -78,6 +78,7 @@ ul.navbar-horizontal li {
 
     color:blueviolet ;
     display: inline-block;
+    border: solid;
 
     /*background-color:beige;*/
     padding: 8px;
