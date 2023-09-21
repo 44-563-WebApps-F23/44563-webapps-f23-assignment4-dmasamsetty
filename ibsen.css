@@ -1,39 +1,29 @@
 /* speech class will be used for spoken text*/
-
 .speech {
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 24;
 }
-
 /*direction class will be used for the non-spoken directions in the play*/
-
 .direction {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18; background-color: bisque
+    font-size: 18; color:black ; background-color: bisque;
 }
-
 /*using a hover on direction class*/
-
 .direction:hover {
     color: #718556;
     background-color:aquamarine;
-    
 }
-
 /*styling each character*/
 .Stockmann {
     color: blue;
 }
-
 .Kiil {
     color: brown;
 }
-
 .drStockmann {
     color: chartreuse;
 }
-
 /* Styling the Table*/
 
 th {
