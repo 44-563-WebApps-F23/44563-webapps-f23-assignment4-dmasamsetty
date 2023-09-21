@@ -1,42 +1,95 @@
 /* speech class will be used for spoken text*/
 
-.speech{font-family:'Times New Roman', Times, serif; 
-    color:black; 
-    font-size:24;
+.speech {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 24;
 }
+
 /*direction class will be used for the non-spoken directions in the play*/
 
-.direction {font-family:'Courier New', Courier, monospace;
-     font-size: 18;
+.direction {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18; background-color: bisque
 }
+
 /*using a hover on direction class*/
 
-.direction:hover{color: black;
-     background-color: bisque;
+.direction:hover {
+    color: #718556;
+    background-color:aquamarine;
+    
 }
+
 /*styling each character*/
-.Stockmann{color:blue;}
-.Kiil{color: brown;}
-.drStockmann{color:chartreuse;}
+.Stockmann {
+    color: blue;
+}
+
+.Kiil {
+    color: brown;
+}
+
+.drStockmann {
+    color: chartreuse;
+}
 
 /* Styling the Table*/
 
-th { border: dashed 3px; color:burlywood; padding: 30px 20px 30px 20px; margin: 200px 13em 15pt 10%;
-    text-align: center; font-size: x-large;
-  }
-td {border: solid 1px; padding: 30px 20px 30px 20px;
-    text-align: center; font-size: large;
-}
-.collapsing { border: solid 3px;
-    border-collapse:collapse;
-    outline: solid 2px lightcoral;}
-
-tr:nth-child(even) {background-color: #718556;
+th {
+    border: dashed 3px;
+    color: burlywood;
+    padding: 30px 20px 30px 20px;
+    margin: 200px 13em 15pt 10%;
+    text-align: center;
+    font-size: x-large;
 }
 
-h4:hover{
-    text-shadow: 2px 3px 5px orange; 
+td {
+    border: solid 1px;
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.collapsing {
+    border: solid 3px;
+    border-collapse: collapse;
+    outline: solid 2px lightcoral;
+}
+
+tr:nth-child(even) {
+    background-color: #718556;
+}
+
+h4:hover {
+    text-shadow: 2px 3px 5px orange;
     border: solid 2px;
 }
 
+ul.navbar-horizontal {
 
+    /* remove these */
+
+    list-style-type: none;
+    background-color:aqua ;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+
+}
+
+/*ul.navbar-horizontal li{
+  display:inline-block;
+
+    }*/
+
+ul.navbar-horizontal li {
+
+    color:blueviolet ;
+    display: inline-block;
+
+    /*background-color:beige;*/
+    padding: 8px;
+
+}
